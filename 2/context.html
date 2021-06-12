@@ -1,0 +1,956 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>context · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="channel.html" />
+    
+    
+    <link rel="prev" href="同步原语和锁.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    go语言的基本语法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1/介绍go语言.html">
+            
+                <a href="../1/介绍go语言.html">
+            
+                    
+                    介绍go语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../1/go语言的包管理工具.html">
+            
+                <a href="../1/go语言的包管理工具.html">
+            
+                    
+                    go语言的包管理工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../1/常用关键字.html">
+            
+                <a href="../1/常用关键字.html">
+            
+                    
+                    go语言常用关键字
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../1/go语言的基础组件.html">
+            
+                <a href="../1/go语言的基础组件.html">
+            
+                    
+                    go语言的基础组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../1/go语言的条件和逻辑语句.html">
+            
+                <a href="../1/go语言的条件和逻辑语句.html">
+            
+                    
+                    go语言的条件和逻辑语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../1/go语言的面向对象.html">
+            
+                <a href="../1/go语言的面向对象.html">
+            
+                    
+                    go语言的面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../1/go语言的错误处理.html">
+            
+                <a href="../1/go语言的错误处理.html">
+            
+                    
+                    go语言的错误处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../1/go语言的测试.html">
+            
+                <a href="../1/go语言的测试.html">
+            
+                    
+                    go语言的测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    go语言高级用法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="同步原语和锁.html">
+            
+                <a href="同步原语和锁.html">
+            
+                    
+                    同步原语和锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="context.html">
+            
+                <a href="context.html">
+            
+                    
+                    context
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="channel.html">
+            
+                <a href="channel.html">
+            
+                    
+                    channel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="定时器.html">
+            
+                <a href="定时器.html">
+            
+                    
+                    定时器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="调度器.html">
+            
+                <a href="调度器.html">
+            
+                    
+                    运行时调度器P:M:G
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="网络轮询器.html">
+            
+                <a href="网络轮询器.html">
+            
+                    
+                    网络轮询器netpool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="系统监控.html">
+            
+                <a href="系统监控.html">
+            
+                    
+                    系统监控
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="内存模型.html">
+            
+                <a href="内存模型.html">
+            
+                    
+                    go语言的内存模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="并发模型.html">
+            
+                <a href="并发模型.html">
+            
+                    
+                    go语言的并发模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="内存分配.html">
+            
+                <a href="内存分配.html">
+            
+                    
+                    内存分配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="gc.html">
+            
+                <a href="gc.html">
+            
+                    
+                    内存回收gc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="栈内存管理.html">
+            
+                <a href="栈内存管理.html">
+            
+                    
+                    栈内存管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="go语言的动态调试.html">
+            
+                <a href="go语言的动态调试.html">
+            
+                    
+                    go语言的动态调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="go语言的性能优化.html">
+            
+                <a href="go语言的性能优化.html">
+            
+                    
+                    go语言的性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="cgo.html">
+            
+                <a href="cgo.html">
+            
+                    
+                    cgo，unsafe，reflect非常见的操作能力
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="go语言的反射.html">
+            
+                <a href="go语言的反射.html">
+            
+                    
+                    go语言的反射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="事故排查.html">
+            
+                <a href="事故排查.html">
+            
+                    
+                    go语言线上事故排查
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    go语言的标准库用法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../3/net.html">
+            
+                <a href="../3/net.html">
+            
+                    
+                    net
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../3/http.html">
+            
+                <a href="../3/http.html">
+            
+                    
+                    http
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../3/rpc.md">
+            
+                <span>
+            
+                    
+                    rpc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../3/time.html">
+            
+                <a href="../3/time.html">
+            
+                    
+                    time
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../3/io.html">
+            
+                <a href="../3/io.html">
+            
+                    
+                    io
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../3/bufio.html">
+            
+                <a href="../3/bufio.html">
+            
+                    
+                    bufio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../3/container.html">
+            
+                <a href="../3/container.html">
+            
+                    
+                    container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../3/sql.html">
+            
+                <a href="../3/sql.html">
+            
+                    
+                    sql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../3/crypto.html">
+            
+                <a href="../3/crypto.html">
+            
+                    
+                    crypto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../3/encoding.html">
+            
+                <a href="../3/encoding.html">
+            
+                    
+                    encoding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../3/flag.html">
+            
+                <a href="../3/flag.html">
+            
+                    
+                    flag
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../3/fmt.html">
+            
+                <a href="../3/fmt.html">
+            
+                    
+                    fmt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../3/os.html">
+            
+                <a href="../3/os.html">
+            
+                    
+                    os
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="../3/syscall.html">
+            
+                <a href="../3/syscall.html">
+            
+                    
+                    syscall
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="../3/text.html">
+            
+                <a href="../3/text.html">
+            
+                    
+                    text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="../3/strconv.html">
+            
+                <a href="../3/strconv.html">
+            
+                    
+                    strconv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="../3/sort.html">
+            
+                <a href="../3/sort.html">
+            
+                    
+                    sort
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" data-path="../3/strings.html">
+            
+                <a href="../3/strings.html">
+            
+                    
+                    strings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.19" data-path="../3/atom.html">
+            
+                <a href="../3/atom.html">
+            
+                    
+                    atom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.20" data-path="../3/log.html">
+            
+                <a href="../3/log.html">
+            
+                    
+                    log
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.21" data-path="../3/json.html">
+            
+                <a href="../3/json.html">
+            
+                    
+                    json
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >context</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="context&#x5305;&#x7684;&#x4F7F;&#x7528;">context&#x5305;&#x7684;&#x4F7F;&#x7528;</h1>
+<p>&#x6211;&#x4EEC;&#x5148;&#x770B;&#x4E00;&#x4E0B;context&#x6700;&#x6838;&#x5FC3;&#x7684; context interface&#x7684;&#x5B9A;&#x4E49;&#xFF1A;</p>
+<pre><code class="lang-go"><span class="hljs-keyword">type</span> Context <span class="hljs-keyword">interface</span> {
+    <span class="hljs-comment">// &#x8FD4;&#x56DE;done&#x7684;&#x65F6;&#x95F4;&#x3002;</span>
+    Deadline() (deadline time.Time, ok <span class="hljs-keyword">bool</span>)
+
+    <span class="hljs-comment">// done&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;chan&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x5F53;&#x53D6;&#x6D88;&#x8FD0;&#x884C;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD9;&#x4E2A;done&#x5C31;&#x4F1A;&#x8FD4;&#x56DE;&#x8FD9;&#x4E48;&#x4E2A;chan&#x3002;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x4E2A;&#x4FE1;&#x53F7;</span>
+    Done() &lt;-<span class="hljs-keyword">chan</span> <span class="hljs-keyword">struct</span>{}
+
+    <span class="hljs-comment">// &#x5982;&#x679C;done&#x6CA1;&#x6709;&#x6B63;&#x5E38;&#x7684;&#x5173;&#x95ED;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x4F1A;&#x8FD4;&#x56DE;&#x9519;&#x8BEF;&#x3002;&#x5B83;&#x53EA;&#x4F1A;&#x5728; Done &#x65B9;&#x6CD5;&#x5BF9;&#x5E94;&#x7684; Channel &#x5173;&#x95ED;&#x65F6;&#x8FD4;&#x56DE;&#x975E;&#x7A7A;&#x7684;&#x503C;&#xFF1B;</span>
+    Err() error
+
+    <span class="hljs-comment">// value&#x4F1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;key - value</span>
+    Value(key <span class="hljs-keyword">interface</span>{}) <span class="hljs-keyword">interface</span>{}
+}
+</code></pre>
+<p>&#x5728;context&#x5305;&#x4E2D;&#x6709;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x7684;type&#x5B9E;&#x73B0;&#x4E86;context&#x63A5;&#x53E3;&#xFF1A;</p>
+<ul>
+<li>context.TODO()</li>
+<li>context.Background()</li>
+<li>context.WithDeadline()</li>
+<li>context.WithValue()</li>
+<li>context.WithCancle()</li>
+<li>context.WithTimeout()</li>
+</ul>
+<p>&#x8FD9;&#x4E9B;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x7684;&#x7C7B;&#x578B;&#x90FD;&#x5B9E;&#x73B0;&#x4E86;context&#x63A5;&#x53E3;&#x3002;&#x5F53;&#x7136;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;&#x4EE5;&#x4E0B;&#x3002;&#x6BD5;&#x7ADF;&#x8FD9;&#x4E9B;&#x90FD;&#x662F;&#x53EF;&#x5916;&#x6F0F;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x4E0D;&#x8FC7;&#xFF0C;&#x50CF;todo&#x548C;background&#x8FD4;&#x56DE;&#x7684;&#x90FD;&#x662F;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x610F;&#x4E49;&#x7684;context&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x628A;&#x4ED6;&#x4EEC;&#x53EB;&#x505A;root &#x4E0A;&#x4E0B;&#x6587;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4E0A;&#x4E0B;&#x6587;&#x7684;&#x6700;&#x9876;&#x7AEF;&#x3002;</p>
+<p>context&#xFF0C;&#x4E2D;&#x6587;&#x540D;&#x5C31;&#x662F;&#x4E0A;&#x4E0B;&#x6587;&#xFF0C;&#x5B83;&#x7684;&#x4E3B;&#x8981;&#x76EE;&#x7684;&#x5C31;&#x662F;&#x4F5C;&#x4E3A;&#x6811;&#x679D;&#x628A;goroutine&#x4E32;&#x6210;&#x4E00;&#x68F5;&#x6811;&#xFF0C;&#x7136;&#x540E;&#x7EDF;&#x4E00;&#x8C03;&#x5EA6;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x8BA9;&#x8FD9;&#x4E9B;&#x4E2A;goroutine&#x7EDF;&#x4E00;&#x53D6;&#x6D88;&#x5C31;&#x4E00;&#x8D77;&#x53D6;&#x6D88;&#xFF0C;&#x6240;&#x4EE5;&#x5B83;&#x624D;&#x88AB;&#x7FFB;&#x8BD1;&#x4E3A;&#x4E0A;&#x4E0B;&#x6587;&#xFF0C;&#x56E0;&#x4E3A;&#x771F;&#x7684;&#x662F;&#x63A7;&#x5236;&#x4E0A;&#x4E0B;&#x6587;&#x7684;&#x4F5C;&#x7528;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#x5C31;&#x662F;&#x4E00;&#x4E2A;context&#x4F7F;&#x7528;&#x7684;&#x6848;&#x4F8B;</p>
+<pre><code class="lang-go"><span class="hljs-keyword">func</span> main() {
+    ctx,cancel := context.WithCancel(context.TODO())
+    ctx = context.WithValue(ctx,<span class="hljs-string">&quot;0&quot;</span>,<span class="hljs-string">&quot;0&quot;</span>)
+    ctx = context.WithValue(ctx,<span class="hljs-string">&quot;1&quot;</span>,<span class="hljs-string">&quot;1&quot;</span>)
+    <span class="hljs-keyword">go</span> get1(ctx)
+    <span class="hljs-keyword">go</span> get2(ctx)
+    cancel()
+    time.Sleep(time.Second)
+}
+
+<span class="hljs-keyword">func</span> get1(ctx context.Context) {
+L:
+    <span class="hljs-keyword">for</span> {
+        <span class="hljs-keyword">select</span> {
+        <span class="hljs-keyword">case</span> &lt;-ctx.Done():
+            fmt.Println(<span class="hljs-string">&quot;&#x8BE5;&#x9000;&#x51FA;&#x4E86;get1&quot;</span>,ctx.Value(<span class="hljs-string">&quot;0&quot;</span>))
+            <span class="hljs-keyword">break</span> L
+        }
+    }
+    <span class="hljs-keyword">go</span> get2(ctx)
+
+}
+<span class="hljs-keyword">func</span> get2(ctx context.Context) {
+L:
+    <span class="hljs-keyword">for</span> {
+        <span class="hljs-keyword">select</span> {
+        <span class="hljs-keyword">case</span> &lt;-ctx.Done():
+            fmt.Println(<span class="hljs-string">&quot;&#x9000;&#x51FA; get2&quot;</span>,ctx.Value(<span class="hljs-string">&quot;1&quot;</span>))
+            <span class="hljs-keyword">break</span> L
+        }
+    }
+
+}
+<span class="hljs-comment">// output : </span>
+<span class="hljs-comment">//&#x9000;&#x51FA; get2 1</span>
+<span class="hljs-comment">//&#x8BE5;&#x9000;&#x51FA;&#x4E86;get1 0</span>
+<span class="hljs-comment">//&#x9000;&#x51FA; get2 1</span>
+</code></pre>
+<p>&#x4F7F;&#x7528;context&#x6BD4;&#x5E76;&#x53D1;&#x539F;&#x8BED;&#x6216;&#x8005;&#x6269;&#x5C55;&#x8BED;&#x53E5;&#x66F4;&#x52A0;&#x7684;&#x7B80;&#x5355;&#x3002;&#x4E3B;&#x8981;&#x662F;&#x64CD;&#x4F5C;&#x7684;&#x65F6;&#x5019;&#x51CF;&#x5C11;&#x4E86;deadlock&#x7684;&#x673A;&#x4F1A;&#xFF0C;&#x4E0D;&#x8FC7;&#x4E5F;&#x4F1A;&#x5F15;&#x5165;&#x72D7;&#x76AE;&#x818F;&#x836F;&#x4E00;&#x6837;&#x7684;ctx&#xFF0C;&#x4E0D;&#x8FC7;&#x603B;&#x4F53;&#x6765;&#x770B;context&#x5305;&#x786E;&#x5B9E;&#x80FD;&#x89E3;&#x51B3;&#x597D;&#x4E86;&#x63A7;&#x5236;goroutine&#x6811;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;&#x53E6;&#x5916;&#x4E0D;&#x8981;&#x4F7F;&#x7528;withvalue&#x6765;&#x8F7B;&#x6613;&#x4F20;&#x9012;&#x503C;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x5BFB;&#x5740;&#x7684;&#x65F6;&#x5019;&#x662F;&#x9012;&#x5F52;&#x7684;&#x5F80;&#x7236;&#x6811;&#x4E0A;&#x53BB;&#x5BFB;&#x627E;&#xFF0C;&#x5F88;&#x6162;&#x7684;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="同步原语和锁.html" class="navigation navigation-prev " aria-label="Previous page: 同步原语和锁">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="channel.html" class="navigation navigation-next " aria-label="Next page: channel">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"context","level":"1.3.2","depth":2,"next":{"title":"channel","level":"1.3.3","depth":2,"path":"2/channel.md","ref":"2/channel.md","articles":[]},"previous":{"title":"同步原语和锁","level":"1.3.1","depth":2,"path":"2/同步原语和锁.md","ref":"2/同步原语和锁.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"sharing":{"weibo":false,"all":["facebook","google","twitter","weibo","instapaper"],"google":false,"twitter":true,"vk":false,"instapaper":false,"facebook":true},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"2/context.md","mtime":"2021-05-29T17:44:21.612Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-12T01:48:27.097Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
